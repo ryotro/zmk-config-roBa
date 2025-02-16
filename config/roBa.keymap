@@ -58,7 +58,7 @@
         };
 
         rayer1 {
-            bindings = <&mo 1>;
+            bindings = <&tog 1>;
             key-positions = <0 1>;
         };
 
@@ -84,7 +84,7 @@
 
         mmd {
             bindings = <&tog 0>;
-            key-positions = <2 3 4>;
+            key-positions = <2 3>;
         };
     };
 
