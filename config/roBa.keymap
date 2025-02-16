@@ -58,7 +58,7 @@
         };
 
         rayer1 {
-            bindings = <&tog 1>;
+            bindings = <&mo 1>;
             key-positions = <0 1>;
         };
 
@@ -113,10 +113,10 @@
 
         mmd {
             bindings = <
-&kp LEFT_SHIFT  &kp KP_NUMBER_7  &kp KP_N8        &kp KP_NUMBER_9  &kp ENTER                                             &mkp LCLK        &mkp RCLK        &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5
-&kp LEFT_SHIFT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS       &kp HOME             &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp F8           &kp F9           &kp F10
-&trans          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans          &kp UP_ARROW         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans           &trans           &kp F11
-&trans          &kp KP_NUMBER_0  &trans           &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp COMMA        &kp PERIOD                                                          &kp F12
+&kp LEFT_SHIFT  &kp KP_NUMBER_7  &kp KP_N8        &kp KP_NUMBER_9  &kp ENTER                                             &mkp LCLK        &mkp RCLK        &lt 1 END  &kp KP_NUMBER_4  &kp KP_NUMBER_5
+&kp LEFT_SHIFT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS       &kp HOME             &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp F8     &kp F9           &kp F10
+&trans          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans          &kp UP_ARROW         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans     &trans           &kp F11
+&lt 6 A         &kp KP_NUMBER_0  &trans           &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp COMMA        &kp PERIOD                                                    &kp F12
             >;
         };
 
