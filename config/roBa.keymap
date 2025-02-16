@@ -51,6 +51,11 @@
             bindings = <&kp MINUS>;
             key-positions = <3 4>;
         };
+
+        piriod {
+            bindings = <&lt 1 DOT>;
+            key-positions = <5 6>;
+        };
     };
 
     macros {
