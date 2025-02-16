@@ -27,11 +27,6 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
@@ -76,6 +71,16 @@
             bindings = <&tog 3>;
             key-positions = <22 23>;
         };
+
+        home {
+            bindings = <&kp HOME>;
+            key-positions = <4 5>;
+        };
+
+        rayer2 {
+            bindings = <&tog 2>;
+            key-positions = <10 11>;
+        };
     };
 
     macros {
@@ -103,10 +108,10 @@
 
         mmd {
             bindings = <
-&kp LEFT_SHIFT  &kp KP_NUMBER_7  &kp KP_N8        &kp KP_NUMBER_9  &kp ENTER                                     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5
-&kp LEFT_SHIFT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS       &kp HOME             &kp F13  &kp F6           &kp F7           &kp F8           &kp F9           &kp F10
-&trans          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans          &kp UP_ARROW         &trans   &trans           &trans           &trans           &trans           &kp F11
-&trans          &kp KP_NUMBER_0  &trans           &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW      &trans   &trans                                                              &kp F12
+&kp LEFT_SHIFT  &kp KP_NUMBER_7  &kp KP_N8        &kp KP_NUMBER_9  &kp ENTER                                             &mkp LCLK        &mkp RCLK        &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5
+&kp LEFT_SHIFT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS       &kp HOME             &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp F8           &kp F9           &kp F10
+&trans          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans          &kp UP_ARROW         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans           &trans           &kp F11
+&trans          &kp KP_NUMBER_0  &trans           &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp COMMA        &kp PERIOD                                                          &kp F12
             >;
         };
 
