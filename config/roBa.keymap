@@ -41,6 +41,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <27 39>;
+        };
+
+        numpad- {
+            bindings = <&kp MINUS>;
+            key-positions = <3 4>;
+        };
     };
 
     macros {
