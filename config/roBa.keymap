@@ -61,6 +61,16 @@
             bindings = <&kp ENTER>;
             key-positions = <0 39>;
         };
+
+        rayer1 {
+            bindings = <&lt 0 KP_NUMBER_1>;
+            key-positions = <0 1>;
+        };
+
+        muhenkan {
+            bindings = <&kp INT_MUHENKAN>;
+            key-positions = <26 27>;
+        };
     };
 
     macros {
