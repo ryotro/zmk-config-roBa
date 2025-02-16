@@ -58,7 +58,7 @@
         };
 
         rayer1 {
-            bindings = <&lt 3 KP_NUMBER_1>;
+            bindings = <&tog 1>;
             key-positions = <0 1>;
         };
 
@@ -80,6 +80,11 @@
         rayer2 {
             bindings = <&tog 2>;
             key-positions = <10 11>;
+        };
+
+        mmd {
+            bindings = <&tog 0>;
+            key-positions = <2 3 4>;
         };
     };
 
@@ -145,7 +150,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) PAGE_DOWN>;
         };
 
         MOUSE {
