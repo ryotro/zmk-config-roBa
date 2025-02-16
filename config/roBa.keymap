@@ -95,7 +95,7 @@
             bindings = <&to 2 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
-
+ };
     behaviors {
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
@@ -107,7 +107,7 @@
             tap-ms = <20>;
         };
     
-
+ };
     keymap {
         compatible = "zmk,keymap";
 
