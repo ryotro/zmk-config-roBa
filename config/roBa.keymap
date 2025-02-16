@@ -103,17 +103,10 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-             (20ms)
-            tap-ms = <20>;
-        };
- 
-lt_to_layer_0: lt_to_layer_0 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&to_layer_0>;
 
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            (20ms)
+
+            tap-ms = <20>;
         };
     };
 
@@ -170,7 +163,7 @@ lt_to_layer_0: lt_to_layer_0 {
 &trans  &trans  &trans  &to 3   &to 3   &to 3       &trans  &trans                                           &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp 0 0>;
+            sensor-bindings = <&inc_dec_kp 0 0>, <&inc_dec_kp 0 0>;
         };
 
         SCROLL {
